@@ -1,0 +1,229 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[russian]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubheadingEdu}[8]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+      \textit{\small#5} & \textit{\small #6} \\
+      \textit{\small#7} & \textit{\small #8} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeadinghref}[4]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+      \small#3 & \textbf{\small #4}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    \textbf{\huge  Виталий Мельников} \\ \vspace{3pt}
+   Россия, г. Москва \\ \vspace{3pt}
+    \small \raisebox{-0.1\height}\faPhone\ +7 (963) 669-97-19 ~ \href{mailto:decicle@yandex.ru}{\raisebox{-0.2\height}\faEnvelope\  \underline{decicle@yandex.ru}} ~ 
+    \href{https://github.com/decique}{\raisebox{-0.2\height}\faGithub\ \underline{github.com/decique}}
+    \vspace{5pt}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Образование}
+  \resumeSubHeadingListStart
+    \resumeSubheadingEdu
+      {МГТУ им. Н.Э.Баумана}{09/2018 -- 06/2022}
+      {Кафедра -- <<Фундаментальные науки>>, факультет -- ФН12 <<Математическое моделирование>>}{}
+      {Специальность -- прикладная математика (01.03.04)}{}
+      {Форма обучения -- очная, бакалавр}{}
+      \vspace{3pt}
+    \resumeSubheadingEdu
+      {МГТУ им. Н.Э.Баумана}{09/2022 -- 06/2024}
+      {Кафедра -- <<Фундаментальные науки>>, факультет -- ФН12 <<Математическое моделирование>>}{}
+      {Специальность -- прикладная математика (01.04.04)}{}
+      {Форма обучения -- очная, магистр}{}
+    
+  \resumeSubHeadingListEnd
+
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Навыки}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Языки программирования}{: Python ($+$\textit{Jupyter}), SQL (\textit{T-SQL, MySQL}), Matlab ($+$\textit{Simulink}), Wolfram Matematica.} \\[4pt]
+     \textbf{Рабочие навыки}{: Построение математических моделей объектов, их анализ и управление;}\\
+    \phantom{\textbf{Рабочие навыки}}{\phantom{:} Применение математического инструментария для 
+выполнения поставленных задач;}\\
+\phantom{\textbf{Рабочие навыки}}{\phantom{:} Работа с машинным обучением и глубоким обучением;}\\
+\phantom{\textbf{Рабочие навыки}}{\phantom{:} Разработка баз данных и работа с запросами;}\\
+\phantom{\textbf{Рабочие навыки}}{\phantom{:} Реализация методов анализа данных, кластеризации, и их 
+применение на практике;}\\[4pt]
+    \textbf{Языки}{: Русский (\textit{родной}), английский (\textit{B2-C1}).}\\[4pt]
+    \textbf{Личные качества}{: Терпеливость, пунктуальность, стрессоустойчивость, аналитическое мышление, стремление к новым знаниям и навыкам.}
+    }}
+ \end{itemize}
+ \vspace{-16pt}
+
+
+%-----------PROJECTS-----------
+\section{Проекты}
+    \vspace{-5pt}
+    \resumeSubHeadingListStart
+      \resumeProjectHeadinghref
+          {\textbf{Сервис предсказания рейтинга и тегов публикации соц. сети} $|$ \emph{Python}}{}
+          {Ссылка: \href{https://github.com/zhursvlevy/PostProcessor}{\textit{https://github.com/zhursvlevy/PostProcessor}}}{}
+          \resumeItemListStart
+            \resumeItem{Проводил первичный анализ исходного датасета, выполнял базовый препроцессинг данных.}
+            \resumeItem{Проводил специфичный препроцессинг данных для задачи предсказания подходящих тегов.}
+            \resumeItem{Предложил и осуществил предсказание тегов поста с помощью применения порождающей модели (LDA).}
+            \resumeItem{Рассматривал и имплементировал baseline-модели (XGB, SVM, LogReg) для задачи предсказания тегов как задачи классификации.}
+            \resumeItem{Написал нейронную сеть LSTM для решения задачи предсказания тегов как задачи классификации, получено SotA на конкретной задаче.}
+          \resumeItemListEnd
+          \vspace{-13pt}
+      \resumeProjectHeading
+          {\textbf{База данных медицинской клиники} $|$ \emph{SQL, Transact-SQL, MS-SQL}}{}
+          \resumeItemListStart
+            \resumeItem{Разработал идейную составляющую и требования модели <<сущность-связь>> для мединциской клиники.}
+            \resumeItem{Спроектировал ER-модель, соответствующую установленным требованиям, построил соответствующую реляционную модель.}
+            \resumeItem{Реализовал средствами SQL Server все созданные по данному проекту наработки, написал необходимые для работы с базой данных запросы.}
+          \resumeItemListEnd 
+          \vspace{-13pt}
+        \resumeProjectHeading
+          {\textbf{Терапия глиомы} $|$ \emph{Python}}{}
+          \resumeItemListStart
+            \resumeItem{Проанализировал существующие модели, описывающие развитие глиомы в живом организме.}
+            \resumeItem{Провел анализ модели на счет её поведения при отсутствующем управлении средствами теории управления.}
+            \resumeItem{Предложил и синтезировал новое управление на основе нейронных сетей (т.н. нейроуправление).}
+          \resumeItemListEnd 
+          \vspace{-13pt}
+    \resumeSubHeadingListEnd
+\vspace{-15pt}
+
+
+
+
+
+
+
+\end{document}
