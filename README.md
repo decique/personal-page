@@ -13,7 +13,7 @@ Mostly here you will find a valid resume in two languages, active and completed 
 My name is Vitaly Melnikov, born October 2000, finishing my master's degree at BMSTU, specializing in applied mathematics and artificial intelligence. I have a high interest in machine and deep learning, how to implement and apply them, and I admire mathematics. In this regard, my main area of work is data scientist, data analytics, programming.
 
 ### Résumé / CV
-TBD
+CV in russian: [link](resume/pdfs/resume_ru.pdf)
 
 ### Projects
 TBD
