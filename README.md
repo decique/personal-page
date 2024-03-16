@@ -1,6 +1,6 @@
 # Vitaly Melnikov's Personal Page
 
-[In english](en) | [На русском](ru)
+[In english](#en) | [На русском](#ru)
 ---
 
 ## <a id="en">English version</a>
