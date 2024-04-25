@@ -30,10 +30,24 @@ CV in russian: [link](resume/pdfs/resume_ru.pdf)
  - Preprocessing of dataset specifically for tags prediction task \
  - LDA implementation for tags prediction task \
  - Implementation of multiclass multilabel classification via Logistic Regression, SVM, XGB and LSTM with different embeddings
+  
+- **Medical Clinic Datbase** \
+*Database of some abstract medical clinic, developed from idea to implementation.* \
+ - Development of ideas, requirements, entity-relationship model\
+ - Model design, corresponding relational model construction\
+ - Programm realization via SQL Server
 
-### Publications and works
-TBD
+- **Glioma Therapy** \
+*Analysis and development of new control for glioma growth and therapy model.* \
+ - Analysis of all existing models, selecting model to work with\
+ - Analysis of the model behavior without any therapy by means of control theory\
+ - Analysis of the model controllability\
+ - Implementing three types of control via PD-controller, brunovsky canonical form and normal form
 
+### Scientific activities
+#### Speeches
+- *Speech at the BMSTU Student Spring 2024 with* "Predicting the Key Topics of a Social Network Post" [pdf]
+- *Speech at the AINL Conference 2024 with* "A Framework for Predicting Tags and Post Rating on Social Network" [pdf]
 ---
 ## <a id="ru">Русская версия</a>
 
